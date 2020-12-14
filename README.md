@@ -31,19 +31,27 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+
+The useRouteMatch hook returns an object containing the dta of the current route. It allows the specification of what content to render to a specified route, depending on what the hook returns. The data inside of the object ca be parameters specified in the route or path. 
+
 1. How would you explain form validation to someone who has never programmed before?
+
+Form validation is a way to ensure that data the form collects is the data we actually want. As an example, in an email we would need to calidate whether or not the data entered is an actual email. By validating and confirming it is an email we can be sure we are collecting information on an email rather than other types of data. Validation is the process to ensure we collect the correct data.
+
 1. In 1-2 sentences, define end to end testing.
+
+End to end testing is the process where we create an environment with a series of tests to ensure the application is performing as expected. These tests run automatically depending on what we ask the tests to do. 
 
 ## Instructions
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: `git push origin <firstName-lastName>`
+- [X] Create a forked copy of this project
+- [?] Add your team lead as collaborator on Github NO TEAM LEADS
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [X] Create a new branch: `git checkout -b <firstName-lastName>`
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [X] Push commits: `git push origin <firstName-lastName>`
 
 ### Task 2: Project Requirements
 
